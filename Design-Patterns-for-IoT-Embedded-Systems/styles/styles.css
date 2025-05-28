@@ -1,0 +1,133 @@
+
+
+
+/* FUNDO DA TELA */
+.stApp {
+    background-color: #313D40; /* #2b2b2b;  */
+}
+
+
+/* MENU LATERAL */
+.stSidebar {
+    background-color: #2E688C;
+    color: #2E688C;
+    
+}
+
+
+/* HEADER - TITULO DESIGN PATTERN FOR IOT INTEGRATION */
+.custom-header {
+    font-family: 'Helvetica', Arial, sans-serif;
+    color: #fff; /* Cor do texto */
+    font-size: 1.2rem;
+    font-weight: bold;
+    text-align: left;
+    padding: 10px;
+    background-color: #2E688C; /* Cor de fundo */
+    border-radius: 5px;
+    margin-top: 10px;
+}
+
+
+
+/* RETIRA O HEADER PADRÃO DO STREAMLIT */
+header {
+    visibility: hidden;
+    height: 0;
+}
+
+
+/* ESTILO BOTÕES */
+.stButton > button {
+    background-color: #444 !important;
+    color: #fff !important;
+    border: none;
+    padding: 30px 76px;
+    border-radius: 5px;
+    font-size: 1rem;
+}
+
+/* EVENTO DE ON-MOUSE UP BOTÃO */
+.stButton button:hover {
+    background-color: #555 !important;
+    cursor: pointer;
+}
+
+
+/* ESTILO DOS INPUTS*/
+.stTextInput > div > div > input,
+.stSelectbox > div[data-baseweb="select"] > div {
+    background-color: #555;
+    color: #fff;
+    font-size: 1.2rem;
+}
+
+
+/* Estilizar mensagens de sucesso, aviso e erro */
+.stAlert {
+    background-color: #444;
+    color: #fff;
+    font-size: 1.2rem;
+}
+
+
+/* Estilizar textos */
+body div {
+    color: #fff;
+    font-size: 1.2rem;
+}
+
+
+/* Estilizar textos */
+h1,h2,h3,h4,h5 div {
+    color: #fff;
+    font-size: 1.5rem;
+}
+
+
+/* ESTILO DA TABELA DE SUBSCRIBES ASSOCIADOS */
+.table-cell {
+    padding: 5px 10px;
+    background-color: #808A8C;
+    border-radius: 6px;
+    margin: 0;
+    text-align: center;
+    font-size: 2.9rem;
+}
+
+
+/* ESTILO DA TELA DE VIEWER */
+
+.temperature-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 5px 10px;
+}
+
+.temperature-card {
+    background-color: #808A8C;
+    padding: 20px 100px;
+    border-radius: 10px;
+
+    text-align: center;
+    box-shadow: 2px 2px 5px rgba(0,0,0,0.1);
+}
+
+.temperature-tag {
+    margin-top: 0;
+    font-size: 30px;
+}
+
+.temperature-label {
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.temperature-value {
+    font-size: 80px;
+    margin: 0;
+    color: #fff;
+}
+
+

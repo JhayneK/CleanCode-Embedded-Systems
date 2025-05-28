@@ -1,0 +1,20 @@
+h1 {
+    color: #2E688C;
+  }
+  
+  p {
+    font-size: 1.1em;
+    line-height: 1.6;
+  }
+  
+/* Ajusta a largura do conteúdo principal */
+.md-main, .md-content {
+    max-width: 100%;
+    width: 95%; /* Ajuste conforme necessário */
+    margin: 0 auto; /* Centraliza o conteúdo */
+  }
+
+  .md-main, .md-content {
+    max-width: 100% !important;
+    width: 95% !important;
+  }

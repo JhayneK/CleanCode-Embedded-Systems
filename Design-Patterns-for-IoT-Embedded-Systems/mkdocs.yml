@@ -1,0 +1,13 @@
+site_name: Broker IoT
+site_description: Broker IoT
+site_author: Renato Ribas
+site_url: https://github.com/RenatoRibas/Design-Patterns-for-IoT-Embedded-Systems.git
+
+nav:
+  - Home: index.md
+  - Settings: settings.md
+
+theme: readthedocs
+
+extra_css:
+  - docs/css/styles.css
